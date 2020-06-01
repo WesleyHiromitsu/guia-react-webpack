@@ -40,7 +40,8 @@ yarn add -D @babel/core @babel/preset-env @babel/preset-react autoprefixer babel
 ## Adicione as seguintes pastas e arquivos no projeto.
 
 Crie uma pasta public e coloque um arquivo index.html.
-Você pode optar por digitar esse comando para criar a pasta e o arquivo.
+
+> Você pode optar por digitar esse comando para criar a pasta e o arquivo.
 
 ```bash
 mkdir public
@@ -48,7 +49,8 @@ touch public/index.html
 ```
 
 Crie uma pasta src e coloque coloque os arquivos index.js e App.js.
-Você pode optar por digitar esse comando para criar a pasta e o arquivo.
+
+> Você pode optar por digitar esse comando para criar a pasta e o arquivo.
 
 ```bash
 mkdir src
@@ -102,7 +104,8 @@ document.querySelector("#root"));
 ## Crie o arquivo .babelrc na raiz do projeto.
 
 Crie um arquivo .babelrc na raiz do projeto.
-Você pode optar por digitar esse comando para criar o arquivo.
+
+> Você pode optar por digitar esse comando para criar o arquivo.
 
 ```bash
 touch .babelrc
@@ -119,7 +122,8 @@ Abra o arquivo e adicione o seguinte código.
 ## Crie o arquivo webpack.config.js na raiz do projeto.
 
 Crie um arquivo webpack.config.js na raiz do projeto.
-Você pode optar por digitar esse comando para criar o arquivo.
+
+> Você pode optar por digitar esse comando para criar o arquivo.
 
 ```bash
 touch webpack.config.js
@@ -190,6 +194,20 @@ module.exports = {
     ]
 };
 ```
+
+## Estrutura das pastas
+
+No final a estrutura de pastas do seu projeto deverá ficar assim:
+
+    public
+    ├── index.html
+    src
+    ├── App.js
+    ├── index.js
+    .babelrc
+    package.json
+    webpack.config.js
+    yarn.lock
 
 ## Inicie o projeto
 
