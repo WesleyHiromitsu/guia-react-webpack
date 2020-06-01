@@ -199,15 +199,15 @@ module.exports = {
 
 No final a estrutura de pastas do seu projeto deverá ficar assim:
 
-    public
-    ├── index.html
-    src
-    ├── App.js
-    ├── index.js
-    .babelrc
-    package.json
-    webpack.config.js
-    yarn.lock
+    ├── public
+    │   └──index.html
+    ├── src
+    │   ├── App.js
+    │   └── index.js
+    ├── .babelrc
+    ├── package.json
+    ├── webpack.config.js
+    └── yarn.lock
 
 ## Inicie o projeto
 
