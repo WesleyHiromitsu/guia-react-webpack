@@ -200,7 +200,7 @@ module.exports = {
 No final a estrutura de pastas do seu projeto deverá ficar assim:
 
     ├── public
-    │   └──index.html
+    │   └── index.html
     ├── src
     │   ├── App.js
     │   └── index.js
@@ -214,3 +214,7 @@ No final a estrutura de pastas do seu projeto deverá ficar assim:
 ```bash
 yarn start
 ```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
